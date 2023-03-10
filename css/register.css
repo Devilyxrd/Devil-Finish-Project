@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-black: black;
+    --color-darkred: darkred;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    overflow:-moz-scrollbars-vertical; overflow-x:hidden; overflow:-moz-scrollbars-vertical; overflow-y:hidden;
+}
+
+body::-webkit-scrollbar{
+    overflow: hidden;
+    display: none;
+}
+
+
+.anakutu{
+    background-color: var(--color-black);
+    width: 100vw;
+    height: 56.25vw;
+    background-color: black;
+}
+
+.anakutu .background{
+    position: absolute;
+    background-color: darkred;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.anakutu .background #soft-back{
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.anakutu .reg-box{
+    margin: 0 auto;
+    position: relative;
+    background-color: #081029;
+    left: 38.502083333333336vw;
+    width: 22.916666666666668vw;
+    height: 56.25vw;
+    transition: .5s ease-in-out;
+}
+
+.anakutu .reg-box #caption{
+    position: relative;
+    top: -1.5625vw;
+    margin: 0 auto 0 auto;
+    display: table;
+    color: #66547c;
+}
+
+.anakutu .reg-box #logo{
+    margin: 0 auto 0 auto;
+    display: table;
+    width: 13.020833333333334vw;
+    height: 13.020833333333334vw;
+}
+
+.anakutu .reg-box .reg-form{
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    width: 20.833333333333332vw;
+    height: 30.041666666666668vw;
+    background-color: transparent;
+    transition: .5s;
+}
+
+/**/
+
+.anakutu .reg-box .reg-form .nickname{
+    position: relative;
+    top: 0.6770833333333334vw;
+    left: 0.5208333333333334vw;
+    background-color: transparent;
+    border-radius: 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw;
+    width: 9.375vw;
+    height: 2.0833333333333335vw;
+    border: 0.10416666666666667vw solid #66547c;
+}
+
+.anakutu .reg-box .reg-form .nickname #ad{
+    margin: 0 auto 0 auto;
+    display: table;
+    position: relative;
+    top: -1.50vw;
+    left: 1.0416666666666667vw;
+    border: none;
+    width: 7.291666666666667vw;
+    height: 1.9791666666666667vw;
+    word-wrap: break-word;
+    outline: none;
+    caret-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.anakutu .reg-box .reg-form .nickname .fa-user{
+    position: relative;
+    top: 0.3645833333333333vw;
+    left: 0.5208333333333334vw;
+    color: white;
+    font-size: 1.0416666666666667vw;
+}
+
+.anakutu .reg-box .reg-form #name-text{
+    position: relative;
+    top: 0.5208333333333334vw;
+    left: 0.78125vw;
+    font-size: 0.78125vw;
+    color: white;
+}
+
+/**/
+
+.anakutu .reg-box .reg-form .lastname{
+    position: relative;
+    top: -1.5583333333333333vw;
+    left: 10.416666666666666vw;
+    background-color: transparent;
+    border-radius: 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw;
+    width: 9.375vw;
+    height: 2.1875vw;
+    border: 0.10416666666666667vw solid #66547c;
+}
+
+.anakutu .reg-box .reg-form .lastname #soyad{
+    margin: 0 auto 0 auto;
+    display: table;
+    position: relative;
+    top: -1.4583333333333333vw;
+    left: 1.0416666666666667vw;
+    border: none;
+    width: 7.291666666666667vw;
+    height: 2.0833333333333335vw;
+    word-wrap: break-word;
+    outline: none;
+    caret-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.anakutu .reg-box .reg-form .lastname .fa-tag{
+    position: relative;
+    top: 0.4166666666666667vw;
+    left: 0.5208333333333334vw;
+    color: white;
+    font-size: 1.3020833333333333vw;
+}
+
+.anakutu .reg-box .reg-form #lastname-text{
+    position: relative;
+    top: 0.46875vw;
+    left: 9.375vw;
+    font-size: 0.78125vw;
+    color: white;
+}
+
+/**/
+
+.anakutu .reg-box .reg-form .eposta{
+    position: relative;
+    top: 1.0416666666666667vw;
+    left: 0.5208333333333334vw;
+    background-color: transparent;
+    border-radius: 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw;
+    width: 19.270833333333332vw;
+    height: 2.6041666666666665vw;
+    border: 0.10416666666666667vw solid #66547c;
+}
+
+.anakutu .reg-box .reg-form .eposta #eposta{
+    margin: 0 auto 0 auto;
+    display: table;
+    position: relative;
+    top: -1.4583333333333333vw;
+    left: 0.5208333333333334vw;
+    border: none;
+    width: 15.625vw;
+    height: 2.5520833333333335vw;
+    word-wrap: break-word;
+    outline: none;
+    caret-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.anakutu .reg-box .reg-form .eposta .fa-at{
+    position: relative;
+    top: 0.625vw;
+    left: 0.5208333333333334vw;
+    color: white;
+    font-size: 1.3020833333333333vw;
+}
+
+.anakutu .reg-box .reg-form #eposta-text{
+    position: relative;
+    top: 5.208333333333333vw;
+    right: 2.55vw;
+    font-size: 0.78125vw;
+    color: white;
+}
+
+/**/
+
+.anakutu .reg-box .reg-form .sifre{
+    position: relative;
+    top: 3.6458333333333335vw;
+    left: 0.5208333333333334vw;
+    background-color: transparent;
+    border-radius: 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw;
+    width: 19.270833333333332vw;
+    height: 2.6041666666666665vw;
+    border: 0.10416666666666667vw solid #66547c;
+}
+
+.anakutu .reg-box .reg-form .sifre #passwd{
+    margin: 0 auto 0 auto;
+    display: table;
+    position: relative;
+    top: -1.4583333333333333vw;
+    left: 0.2604166666666667vw;
+    border: none;
+    width: 14.0625vw;
+    height: 2.5520833333333335vw;
+    word-wrap: break-word;
+    outline: none;
+    caret-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.anakutu .reg-box .reg-form .sifre .fa-key{
+    position: relative;
+    top: 0.625vw;
+    left: 0.5208333333333334vw;
+    color: white;
+    font-size: 1.3020833333333333vw;
+}
+
+.anakutu .reg-box .reg-form .sifre .fa-eye{
+    position: absolute;
+    top: 0.78125vw;
+    left: 17.1875vw;
+    color: white;
+    font-size: 1.0416666666666667vw;
+    cursor: pointer;
+}
+
+.anakutu .reg-box .reg-form .sifre .fa-eye-slash{
+    position: absolute;
+    top: 0.78125vw;
+    left: 17.1875vw;
+    color: white;
+    font-size: 1.0416666666666667vw;
+    cursor: pointer;
+}
+
+.anakutu .reg-box .reg-form #sifre-text{
+    position: relative;
+    top: 10.416666666666666vw;
+    right: 4.381025015253203vw;
+    font-size: 0.9151921903599756vw;
+    color: white;
+}
+
+/**/
+
+.anakutu .reg-box .reg-form .sifre-tekrar{
+    position: relative;
+    top: 6.25vw;
+    left: 0.5208333333333334vw;
+    background-color: transparent;
+    border-radius: 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw 1.3020833333333333vw;
+    width: 19.270833333333332vw;
+    height: 2.6041666666666665vw;
+    border: 0.10416666666666667vw solid #66547c;
+}
+
+.anakutu .reg-box .reg-form .sifre-tekrar #passwd-again{
+    margin: 0 auto 0 auto;
+    display: table;
+    position: relative;
+    top: -1.4583333333333333vw;
+    left: 0.2604166666666667vw;
+    border: none;
+    width: 14.0625vw;
+    height: 2.5520833333333335vw;
+    word-wrap: break-word;
+    outline: none;
+    caret-color: white;
+    color: white;
+    background-color: transparent;
+}
+
+.anakutu .reg-box .reg-form .sifre-tekrar .fa-shield-halved{
+    position: relative;
+    top: 0.625vw;
+    left: 0.5208333333333334vw;
+    color: white;
+    font-size: 1.3020833333333333vw;
+}
+
+.anakutu .reg-box .reg-form .sifre-tekrar .fa-eye{
+    position: absolute;
+    top: 0.78125vw;
+    left: 17.1875vw;
+    color: white;
+    font-size: 1.0416666666666667vw;
+    cursor: pointer;
+}
+
+.anakutu .reg-box .reg-form .sifre-tekrar .fa-eye-slash{
+    position: absolute;
+    top: 0.78125vw;
+    left: 17.1875vw;
+    color: white;
+    font-size: 1.0416666666666667vw;
+    cursor: pointer;
+}
+
+.anakutu .reg-box .reg-form #sifreagain-text{
+    position: relative;
+    top: 15.4075vw;
+    right: 6.21vw;
+    font-size: 0.78125vw;
+    color: white;
+}
+
+/**/
+
+.anakutu .reg-box .reg-form #reg-btn{
+    margin: 0 auto 0 auto;
+    display: table;
+    position: relative;
+    top: 8.333333333333334vw;
+    width: 6.510416666666667vw;
+    height: 3.125vw;
+    border-radius: 1.3020833333333333vw 0.2604166666666667vw 1.3020833333333333vw 0.2604166666666667vw;
+    border: 0.10416666666666667vw solid #66547c;
+    color: white;
+    font-size: 1.0416666666666667vw;
+    background-color: transparent;
+    transition: .5s;
+}
+
+.anakutu .reg-box .reg-form #reg-btn:hover{
+    border-radius: 0.2604166666666667vw 1.3020833333333333vw 0.2604166666666667vw 1.3020833333333333vw;
+}
+
+/**/
+
+.anakutu .reg-box #giris{
+    position: relative;
+    top: 2.50vw;
+    margin: 0 auto;
+    background-color: transparent;
+    width: 18.229166666666668vw;
+    height: 5.208333333333333vw;
+    padding: 0.5208333333333334vw;
+    text-align: center;
+    color: #66547c;
+}
+
+.anakutu .reg-box #giris a{
+    color: #66547c;
+}

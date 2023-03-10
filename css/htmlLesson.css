@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-black: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.anakutu{
+    margin: 0 auto;
+    background-color: #342447;
+    width: 100vw;
+    height: 100vw;
+}
+
+.anakutu .nav{
+    width: 100vw;
+    height: 6.510416666666667vw;
+    background-color: #081029;
+    /*border-bottom: 0.052083333333333336vw solid white;*/
+}
+
+.anakutu .nav .logo{
+    width: 6.510416666666667vw;
+    height: 6.510416666666667vw;
+    background-color: transparent;
+}
+
+.anakutu .nav .logo img{
+    width: 6.510416666666667vw;
+    height: 6.510416666666667vw;
+}
+
+.anakutu .nav #menu{
+    list-style-type: none;
+    margin-top: 1.6020833333333333vw;
+    margin-left: 58.854166666666664vw;
+}
+
+.anakutu .nav #menu li{
+    float: left;
+    margin-left: 1.1020833333333333vw;
+}
+
+.anakutu .nav #menu li a{
+    margin: 0 auto 0 auto;
+    display: table;
+    font-size: 1.2020833333333333vw;
+    text-decoration: none;
+    color: white;
+    padding: 0.6125vw;
+    border-radius: 0px 1.3020833333333333vw 0px 1.3020833333333333vw;
+    transition: .5s;
+}
+
+.anakutu .nav #menu li a:hover{
+    background-color: #21152f;
+}
+
+.anakutu .nav #menu:hover li a:not(:hover){
+    opacity: 0.3;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.anakutu .nav #menu  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 3.125vw;
+    left: 0.8770833333333334vw;
+    width: 10.208333333333333vw;
+    overflow: auto;
+    box-shadow: 0vw 0.5208333333333334vw 0.5208333333333334vw 0vw rgba(0,0,0,0.4);
+    border-radius: 0.5208333333333334vw;
+    padding: 0.5208333333333334vw;
+    background-color: #21152f;
+}
+
+.anakutu .nav #menu  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.anakutu .nav #menu  .dropdown-content a {
+    display: block;
+    color: white;
+    padding: 0.2604166666666667vw;
+    text-decoration: none;
+}
+
+.anakutu .nav #menu .dropdown-content a:hover {
+    color: rgb(136, 62, 62);
+}
+
+/**/
+
+.dropdownTwo {
+    display: inline-block;
+    position: relative;
+}
+
+.anakutu .nav #menu  .dropdown-content-two {
+    display: none;
+    position: absolute;
+    top: 3.125vw;
+    left: -1vw;
+    width: 10.208333333333333vw;
+    overflow: auto;
+    box-shadow: 0vw 0.5208333333333334vw 0.5208333333333334vw 0vw rgba(0,0,0,0.4);
+    border-radius: 0.5208333333333334vw;
+    padding: 0.5208333333333334vw;
+    background-color: #21152f;
+    z-index: 99;
+}
+
+.anakutu .nav #menu  .dropdownTwo:hover .dropdown-content-two {
+    display: block;
+}
+
+.anakutu .nav #menu  .dropdown-content-two a {
+    display: block;
+    color: white;
+    padding: 0.2604166666666667vw;
+    text-decoration: none;
+}
+
+.anakutu .nav #menu .dropdown-content-two a:hover {
+    color: rgb(136, 62, 62);
+}
+
+/**/
+
+.anakutu .area{
+    background-color: transparent;
+    width: 100vw;
+    height: 78.125vw;
+}
+
+.anakutu .area .kenarlik{
+    position: absolute;
+    margin-top: 3.6458333333333335vw;
+    margin-left: 9.208333333333333vw;
+    border: 0.10416666666666667vw solid yellow;
+    width: 52.083333333333336vw;
+    height: 31.25vw;
+}
+
+.anakutu .area .kenarlik .videoArea iframe{
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+.anakutu .area .kenarlik .videoArea{    
+    margin: 0 auto;
+    margin-top: 2.6041666666666665vw;
+    background-color: transparent;
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+.anakutu .area .kenarlik .videoArea .lessonOne{   
+    position: absolute; 
+    margin: 0 auto;
+    background-color: transparent;
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+.anakutu .area .kenarlik .videoArea .lessonTwo{    
+    position: absolute;
+    margin: 0 auto;
+    background-color: transparent;
+    display: none;
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+.anakutu .area .kenarlik .videoArea .lessonThree{  
+    position: absolute;  
+    margin: 0 auto;
+    background-color: transparent;
+    display: none;
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+.anakutu .area .kenarlik .videoArea .lessonFour{   
+    position: absolute; 
+    margin: 0 auto;
+    background-color: transparent;
+    display: none;
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+.anakutu .area .kenarlik .videoArea .lessonFive{ 
+    position: absolute;   
+    margin: 0 auto;
+    background-color: transparent;
+    display: none;
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+.anakutu .area .kenarlik .videoArea .lessonSix{   
+    position: absolute; 
+    margin: 0 auto;
+    background-color: transparent;
+    display: none;
+    width: 46.875vw;
+    height: 26.041666666666668vw;
+    border-radius: 1.3020833333333333vw;
+}
+
+/**/
+
+.anakutu .panel{
+    position: absolute;
+    margin-top: 3.6458333333333335vw;
+    margin-left: 70.5vw;
+    background-color: #081029;
+    width: 20.833333333333332vw;
+    height: 31.25vw;
+    border-radius: 0.78125vw;
+    border: 0.052083333333333336vw solid yellow;
+    padding: 2.6041666666666665vw;
+}
+
+.anakutu .panel ul{
+    list-style-type: none;
+}
+
+.anakutu .panel ul li{
+    margin-top: 1.8229166666666667vw;
+}
+
+.anakutu .panel ul li a{
+    font-size: 1.3020833333333333vw;
+    color: #5f4f76;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.anakutu .panel ul li a:hover{
+    color: #342447;
+}
+
+
+/**/
+
+.anakutu .ozetKenarlik{
+    position: absolute;
+    border: 0.10416666666666667vw solid yellow;
+    margin-top: 41.666666666666664vw;
+    margin-left: 10.416666666666666vw;
+    background-color: transparent;
+    padding: 1.0416666666666667vw;
+    width: 78.125vw;
+    height: 31.25vw;
+}
+
+.anakutu .ozetKenarlik h1{
+    color: #5f4f76;
+    margin: 0 auto 0 auto;
+    display: table;
+}
+
+.anakutu .ozetKenarlik #icerik{
+    margin-top: 0.5208333333333334vw;
+    background-color: transparent;
+    font-size: 1.1979166666666667vw;
+    height: 26.041666666666668vw;
+    padding: 0.78125vw;
+    color: #a58cc0;
+}
+
+/**/
+
+.anakutu .footer{
+    text-align: center;
+    background-color: #081029;
+    width: 100vw;
+    height: 15.625vw;
+    display:flex;
+}
+
+.anakutu .footer .foto{
+    height: 13.697916666666666vw;
+    width: 13.020833333333334vw;
+}
+
+.anakutu .footer .foto img{
+    height: 13.697916666666666vw;
+    width: 13.020833333333334vw;
+}
+
+.anakutu .footer .menu{
+    background-color: transparent;
+    width: 10.416666666666666vw;
+    height: 13.697916666666666vw;
+    margin-left: 15.416666666666666vw;
+}
+
+.anakutu .footer .menu ul{
+    list-style-type: none;
+}
+
+.anakutu .footer .menu ul li{
+    margin-top: 1.5625vw;
+}
+
+.anakutu .footer .menu ul li a{
+    text-decoration: none;
+    color: #5f4f76;
+    font-size: 0.9375vw;
+}
+
+.anakutu .footer .menu ul li a:hover{
+    color: #342447;
+}
+
+.anakutu .footer .about{
+    background-color: transparent;
+    width: 26.041666666666668vw;
+    height: 13.697916666666666vw;
+    margin-left: 28.354166666666668vw;
+    padding: 0.5208333333333334vw;
+    padding-top: 2.6041666666666665vw;
+    color: #5f4f76;
+    font-size: 1.0416666666666667vw;
+}

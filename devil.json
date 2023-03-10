@@ -1,0 +1,20 @@
+{
+    "Inputs": {
+        "ad": "1",
+        "soyad": "2",
+        "eposta": "3",
+        "şifre": "4",
+        "şifretekrar": "5"
+    },
+
+    "Warnings": {
+        "eposta-check": "not doing",
+        "şifre-check": "true",
+        "dataregister-check": "true"
+    },
+
+    "Hacking": {
+        "SQLINJECTIN GUARD": "not doing"
+    }
+
+}

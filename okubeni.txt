@@ -1,0 +1,7 @@
+Projedeki her şey Kaan tarafından yapılmış ve tasarlanmıştır. Ana fikir tamamen bana aittir. Site php uzantısı üzerinden ufak bir back end ile yazılıp html , css ve js dilleri ile entegre edilmiştir.
+Veritabanı dosya içinde devildata.sql dosyasıdır. Kurulum için çift tıklayıp bilgisayarınızdaki xampp veya wampserver tarzı uygulamalar ile siteyi açıp datayı kurup siteye giriş sağlayabilirsiniz.
+Data içerisindeki hesabın şifresi md5 ile kilitlenmiş olmaktadır fakat sql dosyası içinde altındaki satır yorum satırı olarak şifre yazmaktadır (Account Password: 123).
+Sitenin yüzde çoğu responsive tasarımdan oluşmaktadır.
+Herhangi bir aksaklıkta discord üzerinden veya eposta ile bana ulaşabilirsiniz.
+
+Sevgilerle Kaan <3
